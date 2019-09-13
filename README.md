@@ -34,13 +34,28 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
+responsive website use media query to change style base on the device display width and height
+adaptive website is single design and resize base on device screen it's less flexible
+
 2. Describe what it means to be mobile first vs desktop first.
+
+mobile first it's mean we start build the website that fit the mobile sceen so we use min-width
+desktop firsl mean build the website that responsive to desktop first so we use max-width.
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
+make it simple to calculate the font size we want when design the website so 62.5% = 10px if we want font size 25 we just write 2.5rem
+
 4. How would you describe preprocessing to someone new to CSS?
 
+ a programe that work with css in  a way to make our code smaller ,nest and re use the same code in another  
+elements so we dont have write the same style over and over again.
+
+
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+easy way to target an element.
+I loved the parametric mixins that its take arguments.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
@@ -56,13 +71,13 @@ Follow these steps to set up your project:
 - [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
 - [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
 - [ ] Push commits: git push origin `<firstName-lastName>`.
- 
+
 Follow these steps for completing your project.
 
 - [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
 - [ ] Add your project manager as a reviewer on the pull-request
 - [ ] Your project manager will count the project as complete by merging the branch back into master.
- 
+
 
 ### Preprocessor Set up
 
