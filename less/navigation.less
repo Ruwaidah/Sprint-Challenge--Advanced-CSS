@@ -1,1 +1,31 @@
 // Navigation code here
+.nav-header {
+    background: @nav-bg;
+    text-align: center;
+    line-height: 1.7;
+    margin-bottom: 5px;
+
+    .nav-bar {
+        margin: 0 auto;
+
+
+        a{
+            margin-right: 25px;
+            text-decoration: none;
+            font-size: 1.3rem;
+            color: @nav-font;
+            font-weight: bold;
+
+            @media @mobile {
+                font-size: 1.1rem;
+                text-align: center;
+                margin-right:15px; 
+
+                &:last-child {
+                    margin-right: 0;
+                }
+            }
+
+        }
+    }
+}
